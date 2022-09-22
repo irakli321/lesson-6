@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+span{
+    font-family: 'ALK Rounded Nusx Med';}
+.main-section{
+    position: relative;
+    margin: auto;
+}
+.background{
+    height: 308px;
+    background-color: #0020F4;
+}
+.projects{
+    color: #FFFFFF;
+    size: 32px;
+    position: absolute;
+    top: 70px;
+    left: 240px;
+    vertical-align: middle;
+}
+.dots{
+    vertical-align: middle;
+    display: inline-block;
+}
+.first-dot{
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 10px;
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 50px;
+    margin-right: 20px;
+    position: absolute;
+    top: 84px;
+    right: 301px;
+}
+.second-dot{
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 10px;
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 50px;
+    margin-right: 20px;
+    position: absolute;
+    top: 84px;
+    right: 271px;
+    opacity: 30%;
+} 
+.third-dot{
+    display: inline-block;
+    vertical-align: middle;
+    height: 10px;
+    width: 10px;
+    background-color:#FFFFFF;
+    color: #FFFFFF;
+    position: absolute;
+    border-radius: 50px;
+    margin-right: 20px;
+    position: absolute;
+    top: 84px;
+    right: 241px;
+    opacity: 30%;
+} 
+/* ერთი კლასით მინდოდა სამივეს წერტილის გასტილვა მარა ვერ ვქენი */
+.part1{
+    
+    display: inline-block;
+    vertical-align: middle;
+        
+}
+.part1 img{
+    width: 463px;
+    height: 420px;
+    position: absolute;
+    left: 240px;
+    top: 188px;
+}
+.part1 span{
+    width: 443px;
+    height: 125px;
+    font-size: 18px;
+    background-color: white;
+    position: absolute;
+    top: 473px;
+    left: 250px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 74px;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.part3{
+    
+    display: inline-block;
+    vertical-align: middle;
+}
+.part3 img{
+    width: 463px;
+    height: 420px;
+    position: absolute;
+    top: 188px;
+    right: 241px;
+}
+/* ამ იმიჯის ზომებმა რატო აურია ვერ მივხვდი იგივე კოდი იყო რაც პირველ და მესამე იმიჯზე ,მარა მაინც არ დაჯდა იგივენაირად. 
+ვიზუალურად საშინელება რო არ ყოფილიყო ტექსტის და სურათის ზომები შევცვალ. */
+.part3 span{
+    width: 443px;
+    height: 125px;
+    font-size: 18px;
+    background-color: white;
+    position: absolute;
+    top: 473px;
+    right: 225px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.part2{
+    display: inline-block;
+    vertical-align: middle;
+}
+.part2 img{
+    width: 463px;
+    height: 420px;
+    position: absolute;
+    top: 100px;
+    left: 738px;
+}
+.part2 span{
+    width: 363px;
+    height: 95px;
+    font-size: 18px;
+    background-color: white;
+    position: absolute;
+    top: 373px;
+    left: 788px;
+    padding-top: 80 px;
+    padding-left: 30px;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    fill-opacity: 40%;
+    /* ფილ ოპასითი არ მუშაობს */
+}
+.others{
+    position: absolute;
+    right: 256px;
+    top: 643px;
+    color: #171717;
+    size: 18px;
+}
